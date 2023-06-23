@@ -25,7 +25,6 @@ terraform workspace select <workspace-name>
 
 
 
-![Screenshot](terraform-workspaces.PNG)
 
 
 
@@ -57,3 +56,6 @@ terraform apply -var-file="dev-env.tfvars"
 terraform workspace select qa
 terraform apply -var-file="qa-env.tfvars"
 ```
+
+
+![Screenshot](terraform-workspaces.PNG)
